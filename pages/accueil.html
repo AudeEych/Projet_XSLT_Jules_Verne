@@ -1,0 +1,112 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="description" content="Édition numérique de la fin du chapitre XIV du roman Le tour du monde en quatre-vingts jours de Jules Verne">
+      <meta name="keywords" content="XML, TEI, XSLT">
+      <meta name="author" content="Aude Eychenne">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script><link rel="icon" type="image/png" href="PhileasFogg/favicon.png">
+      <style type="text/css">
+            /* Centrer le contenu des pages et justifier le texte */
+            div[type = "container"] {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: justify;
+            }
+            
+            /* Pour insérer un espace après les titres h1 */
+            h1 {
+            margin-bottom: 50px;
+            }
+            
+            /* Pour insérer un espace après les titres h2 */
+            h2 {
+            margin-bottom: 30px;
+            }
+            
+            /* Pour insérer des espaces avant et après les div */
+            div {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            }
+            
+            /* Décaler à droite le logo GitHub localisé en bas de la page d'accueil */
+            .github {
+            margin-left: 8px;
+            }
+            
+            /* Mise en forme des éléments du tableau */
+            td {
+            padding: 15px;
+            text-align: justify;
+            }
+            
+            /* Mise en forme des cartes */
+            div.card {
+            padding: 15px;
+            margin: 20px;
+            }
+            
+            /* Créer un effet au survol de la carte */
+            .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+            }</style>
+      <title>Le tour du monde en quatre-vingts jours | Accueil</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md navbar-dark justify-content-between" style="background-color: #808000;"><a class="navbar-brand" href="accueil.html"><img src="PhileasFogg.png" alt="Le tour du monde en quatre-vingts jours" height="50"></a><ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="accueil.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="index_personnages.html">Index des personnages</a></li>
+            <li class="nav-item"><a class="nav-link" href="index_lieux.html">Index des lieux</a></li>
+         </ul>
+      </nav>
+      <div type="container">
+         <h1 class="text-center">Encodage XML-TEI d'un extrait de : <br><i>"Le tour du monde en quatre-vingts jours"</i> de Jules Verne</h1>
+         <div class="text-center" style="display: block; "><iframe style="width:910px; height: 650px; border: 0;" src="https://gallica.bnf.fr/ark:/12148/bpt6k2251979/f1.item"></iframe></div>
+         <p class="text-center"><i>Le tour du monde en quatre-vingts jours</i> est un
+            roman-feuilleton écrit par Jules Verne est publié pour la première fois 
+            du 6 novembre au 22 décembre 1872 dans le feuilleton du journal 
+            <i> Le Temps</i>, 
+            avec des interruptions régulières.
+            L'encodage porte sur le chapitre XIV, paru dans le numéro du
+            17 novembre 1872. L'encodage se fonde sur la numérisation du journal Le Temps disponible sur l'interface
+            de Gallica.</p>
+         <div>
+            <h2>Source de l'encodage :</h2>
+            <ul>
+               <li><b>Titre du roman : </b>Le tour du monde en quatre-vingts jours</li>
+               <li><b>Chapitre : </b>Dans lequel Phileas Fogg descend toute l'admirable vallée du Gange sans même songer
+                  à la voir</li>
+               <li><b>Pages : </b>1</li>
+               <li><b>Date originale de publication : </b>17 novembre 1872</li>
+               <li><b>Publié dans : </b><i> Le Temps</i>, Rue du Faubourg Montmartre, 10
+                  , Paris</li>
+               <li><b>Facsimilé : </b><a href="https://gallica.bnf.fr/ark:/12148/bpt6k2251979/f1.item">
+                     Bibliothèque nationale de France
+                     </a>, 
+                  
+                  Domaine public
+                  
+                  </li>
+            </ul>
+         </div>
+         <div>
+            <h2>L'encodage :</h2>
+            <p>
+               Encodage et ODD FEUILLETON DU TEMPS DU 17 NOVEMBRE 1872 réalisés dans le cadre du
+               cours de XML-TEI de
+               Mme Ségolène Albouy du Master TNAH de l'Ecole Nationale des Chartes. 
+               <a href="https://github.com/AudeEych/XML-TEI_LeTemps/blob/main/Documentation/ODD_XML-TEI_JVerne.html">Voir l'ODD correspondante.</a></p>
+            <p>Transformation XSL réalisée dans le cadre du cours "Techniques et
+               chaîne de publication électronique" de Mme Ségolène Albouy du Master
+               TNAH de l'Ecole nationale des chartes.</p>
+            <p>La transformation XSL permet de mettre en valeur les lieux et
+               personnages évoqués dans le texte au travers de la constitution
+               d'index.</p>
+         </div>
+         <div class="text-center">Aude Eychenne, 2023<a class="github" href="https://github.com/AudeEych/Projet_XSLT_Jules_Verne"><img width="50" height="50" src="PhileasFogg.png" alt="Voir le projet sur GitHub" title="Voir le projet sur Github"></a></div>
+      </div>
+   </body>
+</html>
