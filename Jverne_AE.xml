@@ -544,7 +544,7 @@
                      <address>
                         <country key="CN">Chine</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">1819729</postCode> 
                      </address>
                   </placeName>
                </place>
@@ -555,7 +555,7 @@
                      <address>
                         <country key="GB">Grande Bretagne</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">2643743</postCode> 
                      </address>
                   </placeName>
                </place>
@@ -579,7 +579,7 @@
                      <address>
                         <country key="GB">Grande Bretagne</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">2655603</postCode> 
                      </address>
                   </placeName>
  
@@ -592,7 +592,7 @@
                      <address>
                         <country key="GB">Grande Bretagne</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">2643123</postCode> 
                      </address>
                   </placeName>
                </place>
@@ -604,7 +604,7 @@
                      <address>
                         <country key="LK">Sri Lanka</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">1227604</postCode> 
                      </address>
                   </placeName>
   
@@ -617,7 +617,7 @@
                      <address>
                         <country key="GR">Grèce</country>
                         <settlement type="city"/>
-                        <postCode source="GeoNames">Unknown</postCode> 
+                        <postCode source="GeoNames">264371</postCode> 
                      </address>
                   </placeName>
                </place>
